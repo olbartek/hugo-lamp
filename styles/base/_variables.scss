@@ -1,30 +1,36 @@
 /* Colors */
-$grey: #777;
-$grey-dark: darken($grey, 20%);
-$grey-light: lighten($grey, 40%);
+$grey: #B8B8B8;
+$grey-dark: #878787;
+$grey-light: #CECECE;
+
 $white: #fff;
 $black: #000;
-$green: #6aac0e;
+
+$almost-black: #30323A;
+$black-secondary: #3B3D45;
+
+
+$green: #A5FFC9;
 $green-light: saturate($green, 10%);
 $blue: #3f9adc;
 
 /* Theme colors */
-$primary: $green;
+$primary: $almost-black;
 $light: darken($white, 5%);
 $pre-background: $grey-light;
 
 /* Layout */
-$main-background: darken($white, 5%);
-$sidebar-background: rgba($primary, 0.9);
+$main-background: $almost-black;
+$sidebar-background: $black-secondary;
 
 /* Text colors */
 $text: $grey;
-$text-title: lighten($black, 15%);
+$text-title: $grey-light;
 $text-invert: findcolorinvert($text);
-$text-light: $grey;
+$text-light: $grey-light;
 $text-strong: $grey-dark;
 $text-content-title: $green-light;
-$text-link: $blue;
+$text-link: $white;
 
 /* Border colors */
 $border-color: $grey-light;

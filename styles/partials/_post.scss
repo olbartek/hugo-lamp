@@ -8,7 +8,7 @@
       border-bottom-style: solid;
       width: $space-large*2;
       padding-top: $space-small;
-      border-bottom-color: $primary;
+      border-bottom-color: $green;
     }
   }
 
@@ -36,7 +36,7 @@
     margin: 0 0.5rem 0 0;
     border-radius: $radius;
     padding: $space-small/2 $space-small;
-    background: $light;
+    background: $green;
     font-size: $size-7;
 
     &:hover {
