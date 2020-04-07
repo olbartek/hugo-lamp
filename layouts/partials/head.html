@@ -1,7 +1,7 @@
 {{ $gohugoio := "gohugoio" }}
 {{ $logo := "/img/avatar.jpg" }}
 <!-- Site & Page Meta Data -->
-{{ if eq .Type "post" }}
+{{ if eq .Type "posts" }}
   {{ $description := .Description | default .Summary }}
   <!-- Page Author & Description -->
   <meta name="author" content="{{ if isset .Params "author" }}{{ .Params.author }}{{ else }}{{ .Site.Params.author }}{{ end }}" />
