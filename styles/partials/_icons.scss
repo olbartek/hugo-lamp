@@ -28,11 +28,20 @@
     background-color: $color-twitter;
 
     &-icon {
-      margin: 5px 0 0 1px;
+      margin: 5px 0 0 0;
+      transform: scale(0.9);
     }
   }
 
   &-facebook {
     background-color: $color-facebook;
+  }
+
+  &-linkedin {
+    background-color: $color-linkedin;
+
+    &-icon {
+      transform: scale(0.8);
+    }
   }
 }
