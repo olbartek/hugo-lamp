@@ -124,6 +124,7 @@
     font-size: 0.9em;
     background-color: $pre-background;
     font-family: $family-monospace;
+    border-radius: $radius;
 
     &::before,
     &::after {

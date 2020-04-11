@@ -17,7 +17,7 @@ $blue: #3f9adc;
 /* Theme colors */
 $primary: $almost-black;
 $light: darken($white, 5%);
-$pre-background: $grey-light;
+$pre-background: $black-secondary;
 
 /* Layout */
 $main-background: $almost-black;
@@ -29,7 +29,7 @@ $text-title: $grey-light;
 $text-invert: findcolorinvert($text);
 $text-light: $grey-light;
 $text-strong: $grey-dark;
-$text-content-title: $green-light;
+$text-content-title: $grey-light;
 $text-link: $white;
 
 /* Border colors */
