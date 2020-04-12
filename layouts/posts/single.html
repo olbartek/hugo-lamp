@@ -25,6 +25,9 @@
           <svg class="icon share-linkedin-icon" fill="currentColor"><use xlink:href="#icon-linkedin-plain" /></svg>
         </a>
       </div>
+      {{ if eq .Params.allowComments true }}
+      {{ template "_internal/disqus.html" . }}
+      {{ end }}
     </footer>
   </section>
 {{ end }}

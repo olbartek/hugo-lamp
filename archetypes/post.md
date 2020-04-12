@@ -1,9 +1,10 @@
 ---
 title: "{{ replace .TranslationBaseName "-" " " | title }}"
-author: "Author Name"
-cover: "/img/cover.jpg"
-tags: ["tagA", "tagB"]
+author: "Bartosz Olszanowski"
 date: {{ .Date }}
+description: ""
+tags: ["tag"]
+allowComments: true
 draft: true
 ---
 
