@@ -145,10 +145,11 @@
     font-family: $family-sans-serif;
     font-weight: 100;
     font-size: $size-3;
+    color: $white;
   }
 
   &-link {
-    color: $black;
+    color: $grey;
     font-weight: $weight-light;
   }
 }
